@@ -1,0 +1,37 @@
+.sidebar {
+    background-color: rgba(4, 4, 4);
+    padding: 24px 24px 0 24px;
+    position: fixed;
+    height: 100%;
+    width: 230px;
+    box-sizing: border-box;
+
+    .brand {
+        padding-bottom: 18px;
+    }
+
+    .menu .menuItem {
+        font-size: 1.5rem;
+        position: relative;
+        margin-top: 20px;
+
+        a {
+            text-decoration: none;
+            color: #B3B3B3;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            height: 40px;
+            transition: all 350ms;
+        }
+
+        &.active a,
+        &:hover a {
+            color: #fff;
+        }
+
+        .menuItemText {
+            margin-left: 15px;
+        }
+    }
+}

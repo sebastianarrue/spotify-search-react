@@ -1,0 +1,52 @@
+.itemContainer {
+    display: inline-flex;
+    position: sticky;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: #151515;
+    height: 270px;
+    width: 180px;
+    min-width: 180px;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover {
+        background-color: #222222;
+    }
+
+    img {
+        display: block;
+        height: 150px;
+        width: 150px;
+        min-height: 148px;
+        min-width: 148px;
+        object-fit: fill;
+    }
+
+    .itemInfo {
+        align-items: flex-start;
+        margin-top: 10px;
+
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        p {
+            margin: 0;
+            font-size: 15px;
+            color: rgb(125, 131, 137);
+
+            &.title {
+                color: aliceblue;
+                font-size: 17px;
+                font-weight: bold;
+            }
+        }
+    }
+}
