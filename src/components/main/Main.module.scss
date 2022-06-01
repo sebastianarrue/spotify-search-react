@@ -1,0 +1,39 @@
+.mainSection {
+    background-color: #121212;
+    min-height: 100vh;
+    position: fixed;
+    left: 230px;
+    top: 80px;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: scroll;
+
+    h2, h3 {
+        color: aliceblue;
+    }
+
+    h3 {
+        display: inline;
+    }
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(180px, 1fr) );
+    gap: 10px;
+    width: 85vw;
+    margin-bottom: 100px;
+}
+
+.dropdown {
+    margin-left: 10px;
+    height: 30px;
+    color: aliceblue;
+    font-size: 15px;
+    background-color: #121212;
+    border-color: #111111 #0a0a0a black;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
