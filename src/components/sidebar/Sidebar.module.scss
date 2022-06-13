@@ -23,11 +23,14 @@
             align-items: center;
             height: 40px;
             transition: all 350ms;
-        }
 
-        &.active a,
-        &:hover a {
-            color: #fff;
+            &.active {
+                color: #fff;
+            }
+
+            &:hover {
+                color: #fff;
+            }
         }
 
         .menuItemText {

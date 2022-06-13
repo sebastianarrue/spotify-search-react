@@ -1,4 +1,5 @@
 export interface Character {
+    mal_id: string,
     title: string,
     description?: string,
     score?: number,
