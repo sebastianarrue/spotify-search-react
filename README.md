@@ -21,7 +21,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Installations
 
-npm install react-redux
-npm install @reduxjs/toolkit
-npm install lodash
+npm install react-redux\
+npm install @reduxjs/toolkit\
+npm install lodash\
 npm install react-router-dom
