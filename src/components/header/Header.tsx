@@ -9,7 +9,6 @@ const Header = () => {
   const dispatch = useAppDispatch();
   const location = useLocation();
 
-  console.log(location);
   const onChange = (evt: React.ChangeEvent<HTMLInputElement>) => {
     dispatch(characterActions.filter(evt.target.value));
     setTerm(evt.target.value);
