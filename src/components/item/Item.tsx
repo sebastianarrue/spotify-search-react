@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import classes from "./Item.module.scss";
 
-const Item = (props: {
+const Item: React.FC<{
   id: string;
   src: string;
   title: string;
   description: string;
-}) => {
+}> = (props) => {
   return (
     <Link to={`${props.id}`}>
       <div className={classes.itemContainer}>
